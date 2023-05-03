@@ -66,6 +66,14 @@ searchButton.addEventListener("click",()=>{
 
 })
 
+clearStorage.addEventListener("click",()=>{
+    if(confirm("Do you really want to clear the list?")){
+        console.log("Clearing...")
+        localStorage.clear();
+        update(JSON.parse(localStorage.getItem("items")));
+    }
+})
+
 
 add.addEventListener("click",create)
 add = document.getElementById("add");
