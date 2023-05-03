@@ -1,0 +1,19 @@
+.btn-primary1 {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  .btn-primary1:hover {
+    background-color: #41464b;
+    color: #fff;
+  }
+
+  .btn-delete {
+    color: #fff;
+    background-color: #dd2a2a;
+    border-color: #dd2a2a;
+  }
+  .btn-delete:hover {
+    background-color: #e03a3a;
+    color: #fff;
+  }
