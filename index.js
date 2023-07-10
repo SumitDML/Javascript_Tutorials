@@ -171,10 +171,10 @@ createdElement.innerText = "This is a created element"
 tn[0].appendChild(createdElement);
 
 
-createdElement2 = document.createElement('b');
-createdElement2.innerText = "This is bold!";
+//createdElement2 = document.createElement('b');
+//createdElement2.innerText = "This is bold!";
 
-tn[0].replaceChild(createdElement2,createdElement);
+//tn[0].replaceChild(createdElement2,createdElement);
 
 
 

@@ -58,8 +58,8 @@ function remove(itemIndex){
 searchButton.addEventListener("click",()=>{
 
 
-    let localValue = localStorage.getItem("items");
-    let searchValue = document.getElementById("search-bar").value;
+    localValue = localStorage.getItem("items");
+    searchValue = document.getElementById("search-bar").value;
     console.log(localValue);
     console.log(searchValue);
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="main">
+        <div class="inputArea" id="inputs">
+            0
+        </div>
+        <div class="row">
+            <button class="buttons" onclick="enter('AC')" >AC</button>
+            <button class="buttons" onclick="enter('DE')">DE</button>
+            <button class="buttons" onclick="enter('.')" >.</button>
+            <button class="buttons" onclick="enter('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="buttons" onclick="enter('7')">7</button>
+            <button class="buttons" onclick="enter('8')">8</button>
+            <button class="buttons" onclick="enter('9')">9</button>
+            <button class="buttons" onclick="enter('*')">X</button>
+        </div>
+        <div class="row">
+            <button class="buttons" onclick="enter('4')">4</button>
+            <button class="buttons" onclick="enter('5')">5</button>
+            <button class="buttons" onclick="enter('6')">6</button>
+            <button class="buttons" onclick="enter('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="buttons" onclick="enter('1')">1</button>
+            <button class="buttons" onclick="enter('2')">2</button>
+            <button class="buttons" onclick="enter('3')">3</button>
+            <button class="buttons" onclick="enter('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="buttons" onclick="enter('00')">00</button>
+            <button class="buttons" onclick="enter('0')">0</button>
+            <button class="buttons" onclick="enter('=')">=</button>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
